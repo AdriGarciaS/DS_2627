@@ -1,0 +1,24 @@
+DS : Lab01
+
+PROJECT TEMPERATURE 
+Main concern there is that we have repeated code 
+For each method of celsius, we have the same for Fahrenheit
+-> extract responsability of trasnfor temperatures 
+-> new class for Temperature in charge of the number and type 
+of tempe
+
+Solution design 
+Class temp with setCelsius , setFhar , getCelsius getFahr or equivalent
+
+The most importangt part is not the concrete implementation 
+Is the design we made with the decision of the methods
+
+PROJECT VIDEO 
+Look for : long method 
+They are not always wrong but it can inidcate that tehre are multiple
+responsabilities into the same method 
+-> extract smaller methods -> 1 responsability = 1 method 
+
+real importante thing : switch 
+now is not easy no change and understand 
+(possible changes : new/errase type, way of calculate, ...)
